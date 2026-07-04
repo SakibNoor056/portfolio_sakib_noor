@@ -1,0 +1,160 @@
+nav{
+    position: fixed;
+    top: 10px;
+    right: 10px;
+}
+
+nav a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin-left: 70px;
+    font-size: 20px;
+}
+
+nav a:hover{
+    color: rgb(237, 229, 229);
+    text-decoration: underline;
+    background-color: rgb(49, 49, 59);
+}
+
+nav a.active{
+    background: rgb(205, 199, 188);
+    color: rgb(47, 45, 45);
+    border-radius: 5px;
+}
+
+body{
+    background-image: url(Image/ContactInfo.png);
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}   
+
+.fa-envelope{
+    font-size: 25px;
+    color:  #007BFF;
+    position: absolute;
+    top: 355px;
+    left: 625px;
+    margin-right: 8%;
+
+
+}
+
+#email{
+    position: relative;
+    color: azure;
+  
+    margin: 10px;
+    top: 350px;
+    left: 650px;
+
+}
+
+#text{
+    font-size: 35px;
+    color: rgb(97, 216, 97);
+    position: absolute;
+    display: flex;
+    padding-left: 10px;
+    justify-content: center;
+    align-items: center;
+    width: 280px;
+    height: 120px;
+    top: 150px;
+    left: 350px;
+    text-shadow: 0 3px 3px rgb(152,76,9);
+    box-shadow: 0 3px 3px rgb(152,76,9);
+    background-color: rgba(143, 130, 83,0.2);
+    border-radius: 10px;
+}
+
+.fa-phone{
+    font-size: 25px;
+    color: #25D366;
+    position: absolute;
+    top: 390px;
+    left: 625px;
+    margin-right: 8%;
+}
+
+
+#phone{
+    position: relative;
+    color: azure;
+  
+    margin: 10px;
+    top: 353px;
+    left: 650px;
+
+}
+
+.fa-facebook{
+    font-size: 25px;
+    
+    position: absolute;
+    top: 425px;
+    left: 625px;
+    margin-right: 8%;
+     color:#1877F2;
+}
+
+
+#fb{
+    position: relative;
+    color: azure;
+  
+    margin: 10px;
+    top: 363px;
+    left: 650px;
+
+}
+
+.fa-linkedin{
+    font-size: 25px;
+    
+    position: absolute;
+    top: 460px;
+    left: 625px;
+    margin-right: 8%;
+     color:#1877F2;
+}
+
+
+#link{
+    position: relative;
+    color: azure;
+  
+    margin: 10px;
+    top: 377px;
+    left: 650px;
+
+}
+
+
+.fa-whatsapp{
+    font-size: 25px;
+    
+    position: absolute;
+    top: 493px;
+    left: 625px;
+    margin-right: 8%;
+    color:#25D366;
+}
+
+
+#whatsapp{
+    position: relative;
+    color: azure;
+  
+    margin: 10px;
+    top: 385px;
+    left: 650px;
+
+}
+
+
+

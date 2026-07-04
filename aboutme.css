@@ -1,0 +1,249 @@
+nav{
+    position: fixed;
+    top: 10px;
+    right: 10px;
+}
+
+nav a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin-left: 70px;
+    font-size: 20px;
+}
+
+nav a:hover{
+    color: rgb(237, 229, 229);
+    text-decoration: underline;
+    background-color: rgb(49, 49, 59);
+}
+
+nav a.active{
+    background: rgb(205, 199, 188);
+    color: rgb(47, 45, 45);
+    border-radius: 5px;
+}
+
+body{
+    background-image: url(Image/About\ me.png);
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}   
+
+#text1{
+    position: absolute;
+    top: 40px;
+    left: 30px;
+}
+#text4{
+    width: 520px;
+    height: 100px;
+    /* align-self: self-start; */
+    text-align: justify;
+    font-size: 18px;
+    font-family: system-ui;
+    color: rgb(255, 255, 255);
+    margin-top: 15px;
+}
+
+#text2{
+    color: rgb(152,76,9);
+    font-size: 45px;
+    position: relative;
+    top: 50px;
+    background-color:  rgb(37, 41, 41);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 50px;
+    box-shadow: 0 5px 10px;
+    text-align: center;
+    text-shadow: 0 1px 1px rgb(252, 252, 252);
+    
+}
+
+#text1 h2{
+    color: rgb(75, 146, 53);
+    font-size: 35px;
+    margin: 0px;
+    position: absolute;
+    left: 545px;
+    width: 400px;
+    top: 110px;
+    text-shadow: 0 2px 2px rgb(152, 76, 9);
+    
+    
+}
+#text3{
+    color: rgb(152, 76, 9);
+    text-decoration: underline;
+    text-align: left;
+    margin: 1px;
+    padding-top: 0;
+    text-underline-offset: 5px;
+    font-family: tahoma;
+    position: absolute;
+    left: 545px;
+    width: 600px;
+    top: 150px;
+    
+}
+
+/* #Personality{
+    position:absolute;
+    left: 100px;
+    bottom: 100px;
+    width: 350px;
+    display: flex;
+    
+ } */
+.fa-user-tie{
+    color: rgb(152,76,9);
+    font-size: 35px;
+    position:absolute;
+    bottom: 233px;
+    left: 85px;
+    background-color: rgb(37, 41, 41);
+    border-radius: 100%;
+    width: 52px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 5px 10px;
+    /* aspect-ratio: 1; */
+    text-align: center;
+    padding-top: 4px;
+    padding-bottom: 0;
+    
+}
+
+
+#text5{
+    color: rgb(152, 76, 9);
+    position: absolute;
+    left: 150px;
+    bottom: 223px;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    text-shadow: 0 1px 1px rgb(252, 252, 252);
+   
+    
+}
+
+#text6{
+    color: azure;
+    text-align: justify;
+    position: absolute;
+    left: 150px;
+    width: 350px;
+    bottom: 115px;
+    font-size: 17px;
+    margin: 0;
+    font-family: system-ui;
+    border-bottom: 2px solid rgb(152, 76, 9);
+    /* box-shadow: 0 1px 1px rgb(152, 76, 9); */
+    padding-bottom: 10px;
+    
+    
+}
+
+/* #Motivation{
+    position:absolute;
+    left: 650px;
+    bottom: 100px;
+    width: 300px;
+    display: flex;
+    
+ } */
+.fa-chart-line{
+    color: rgb(152,76,9);
+    font-size: 35px;
+    position:absolute;
+    left: 550px;
+    bottom: 233px;
+    background-color: rgb(37, 41, 41);
+    border-radius: 100%;
+    width: 52px;
+    height: 48px;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 5px 10px;
+    /* aspect-ratio: 1; */
+    text-align: center;
+    padding-top: 7px;
+    padding-bottom: 0;
+    
+}
+
+#text7{
+    color: rgb(152, 76, 9);
+    position: absolute;
+    bottom: 223px;
+    left: 615px;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    text-shadow: 0 1px 1px rgb(252, 252, 252);
+   
+   
+    
+}
+
+#text8{
+    color: azure;
+    text-align: justify;
+    position: absolute;
+    bottom: 160px;
+    left: 615px;
+    width: 350px;
+    font-size: 17px;
+    margin: 0;
+    font-family: system-ui;
+    /* box-shadow: 0 1px 1px rgb(152, 76, 9); */
+
+    border-bottom: 2px solid rgb(152, 76, 9);
+    padding-bottom: 10px;
+}
+
+.fa-trophy{
+    color: rgb(152,76,9);
+    font-size: 35px;
+    background-color: rgb(37, 41, 41);
+    border-radius: 100%;
+    width: 52px;
+    height: 48px;
+    text-align: center;
+    padding-top: 10px;
+    /* aspect-ratio: 1; */
+    display: flexbox;
+    bottom: 233px;
+    right: 400px;
+    position: absolute;
+    box-shadow: 0px 5px 10px;
+}
+
+.goal{
+    color: rgb(152, 76, 9);
+    position: absolute;
+    bottom: 223px;
+    right: 340px;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    text-shadow: 0 1px 1px rgb(252, 252, 252);
+    
+}
+
+.goaltext{
+    color: azure;
+    text-align: justify;
+    position: absolute;
+    bottom: 123px;
+    right: 40px;
+    width: 350px;
+    font-size: 17px;
+    font-family: system-ui;
+    border-bottom: 2px solid rgb(152, 76, 9);
+    padding-bottom: 10px;
+}

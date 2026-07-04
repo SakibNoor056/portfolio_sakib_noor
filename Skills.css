@@ -1,0 +1,356 @@
+nav{
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    z-index: 3;
+}
+
+nav a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin-left: 70px;
+    font-size: 20px;
+   
+}
+
+nav a:hover{
+    color: rgb(237, 229, 229);
+    text-decoration: underline;
+    background-color: rgb(49, 49, 59);
+  
+}
+
+nav a.active{
+    background: rgb(205, 199, 188);
+    color: rgb(47, 45, 45);
+    border-radius: 5px;
+}
+
+body{
+    background-image: url(Image/skills1.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.allbox{
+    display: flex;
+    align-items: stretch;
+    width: 100%;
+    box-sizing: border-box;
+    min-height: 100vh;
+    color: aliceblue;
+}
+
+.box1,.box2, .box3{
+    flex: 1;
+    min-height: 100vh;  
+}
+
+.box1, .box2{
+    border-right: 2px solid rgb(62, 58, 52);
+}
+
+.skill1,.list11,.skill2, .list21, .fa-screwdriver-wrenc, .fa-ruler-combined{
+    margin: 0;
+}
+
+.fa-screwdriver-wrench{
+    background-color: rgb(226, 223, 221);
+    display: flex;
+    align-items: center;
+    width: 450px;
+    height: 35px;
+    margin-top: 100px;
+    border-radius: 10px;
+    padding-top: 5px;
+    padding-left: 10px;
+    color: rgb(139, 93, 5);
+    font-size: 20px;
+    text-shadow: 0 2px 2px rgb(24, 24, 23);
+    font-weight:bold;
+    box-shadow: 0 2px 2px rgb(187, 134, 20);
+    gap: 20px;
+    align-items: center;
+}
+
+.title1{
+    font-family: georgia;
+    font-size: 28px;
+    
+    align-items: center;
+}
+
+.list11{
+    margin-top: 10px;
+    margin-left: 8px;
+    font-size: 18px;
+   
+}
+
+
+.fa-drafting-compass{
+    background-color: rgb(226, 223, 221);
+    display: flex;
+    align-items: center;
+    width: 450px;
+    height: 35px;
+    margin-top: 100px;
+    border-radius: 10px;
+    padding-top: 5px;
+    padding-left: 10px;
+    color: rgb(139, 93, 5);
+    font-size: 20px;
+    text-shadow: 0 2px 2px rgb(24, 24, 23);
+    font-weight:bold;
+    box-shadow: 0 2px 2px rgb(187, 134, 20);
+    gap: 20px;
+    align-items: center;
+}
+
+.title2{
+    font-family: georgia;
+    font-size: 28px;
+    
+    align-items: center;
+}
+
+.list21{
+    margin-top: 10px;
+    margin-left: 8px;
+    font-size: 18px;
+   
+}
+
+.fa-computer{
+    background-color: rgb(226, 223, 221);
+    display: flex;
+    align-items: center;
+    width: 450px;
+    height: 35px;
+    margin-top: 100px;
+    border-radius: 10px;
+    padding-top: 5px;
+    padding-left: 10px;
+    color: rgb(139, 93, 5);
+    font-size: 20px;
+    text-shadow: 0 2px 2px rgb(24, 24, 23);
+    font-weight:bold;
+    box-shadow: 0 2px 2px rgb(187, 134, 20);
+    gap: 20px;
+    align-items: center;
+}
+
+.title3{
+    font-family: georgia;
+    font-size: 28px;
+    
+    align-items: center;
+}
+
+.list31{
+    margin-top: 10px;
+    margin-left: 8px;
+    font-size: 18px;
+   
+}
+
+
+.fa-palette{
+    background-color: rgb(226, 223, 221);
+    display: flex;
+    align-items: center;
+    width: 450px;
+    height: 35px;
+    margin-top: 100px;
+    border-radius: 10px;
+    padding-top: 5px;
+    padding-left: 10px;
+    color: rgb(139, 93, 5);
+    font-size: 20px;
+    text-shadow: 0 2px 2px rgb(24, 24, 23);
+    font-weight:bold;
+    box-shadow: 0 2px 2px rgb(187, 134, 20);
+    gap: 20px;
+    align-items: center;
+}
+
+.title4{
+    font-family: georgia;
+    font-size: 28px;
+    
+    align-items: center;
+}
+
+.list41{
+    margin-top: 10px;
+    margin-left: 8px;
+    font-size: 18px;
+   
+}
+
+.fa-diagram-project{
+    background-color: rgb(226, 223, 221);
+    display: flex;
+    align-items: center;
+    width: 450px;
+    height: 35px;
+    margin-top: 100px;
+    border-radius: 10px;
+    padding-top: 5px;
+    padding-left: 10px;
+    color: rgb(139, 93, 5);
+    font-size: 20px;
+    text-shadow: 0 2px 2px rgb(24, 24, 23);
+    font-weight:bold;
+    box-shadow: 0 2px 2px rgb(187, 134, 20);
+    gap: 20px;
+    align-items: center;
+}
+
+.title5{
+    font-family: georgia;
+    font-size: 28px;
+    
+    align-items: center;
+}
+
+.list51{
+    margin-top: 10px;
+    margin-left: 8px;
+    font-size: 18px;
+   
+}
+
+.fa-user-tie{
+    background-color: rgb(226, 223, 221);
+    display: flex;
+    align-items: center;
+    width: 450px;
+    height: 35px;
+    margin-top: 100px;
+    border-radius: 10px;
+    padding-top: 5px;
+    padding-left: 10px;
+    color: rgb(139, 93, 5);
+    font-size: 20px;
+    text-shadow: 0 2px 2px rgb(24, 24, 23);
+    font-weight:bold;
+    box-shadow: 0 2px 2px rgb(187, 134, 20);
+    gap: 20px;
+    align-items: center;
+}
+
+.title6{
+    font-family: georgia;
+    font-size: 28px;
+    
+    align-items: center;
+}
+
+.list61{
+    margin-top: 10px;
+    margin-left: 8px;
+    font-size: 18px;
+   
+}
+
+.fa-language{
+    background-color: rgb(226, 223, 221);
+    display: flex;
+    align-items: center;
+    width: 450px;
+    height: 35px;
+    margin-top: 100px;
+    border-radius: 10px;
+    padding-top: 5px;
+    padding-left: 10px;
+    color: rgb(139, 93, 5);
+    font-size: 20px;
+    text-shadow: 0 2px 2px rgb(24, 24, 23);
+    font-weight:bold;
+    box-shadow: 0 2px 2px rgb(187, 134, 20);
+    gap: 20px;
+    align-items: center;
+}
+
+.title7{
+    font-family: georgia;
+    font-size: 28px;
+    
+    align-items: center;
+}
+
+.list71{
+    margin-top: 10px;
+    margin-left: 8px;
+    font-size: 18px;
+   
+}
+
+.fa-puzzle-piece{
+    background-color: rgb(226, 223, 221);
+    display: flex;
+    align-items: center;
+    width: 450px;
+    height: 35px;
+    margin-top: 100px;
+    border-radius: 10px;
+    padding-top: 5px;
+    padding-left: 10px;
+    color: rgb(139, 93, 5);
+    font-size: 20px;
+    text-shadow: 0 2px 2px rgb(24, 24, 23);
+    font-weight:bold;
+    box-shadow: 0 2px 2px rgb(187, 134, 20);
+    gap: 20px;
+    align-items: center;
+}
+
+.title8{
+    font-family: georgia;
+    font-size: 28px;
+    
+    align-items: center;
+}
+
+.list81{
+    margin-top: 10px;
+    margin-left: 8px;
+    font-size: 18px;
+   
+}
+
+.fa-chalkboard-user{
+    background-color: rgb(226, 223, 221);
+    display: flex;
+    align-items: center;
+    width: 450px;
+    height: 35px;
+    margin-top: 100px;
+    border-radius: 10px;
+    padding-top: 5px;
+    padding-left: 10px;
+    color: rgb(139, 93, 5);
+    font-size: 20px;
+    text-shadow: 0 2px 2px rgb(24, 24, 23);
+    font-weight:bold;
+    box-shadow: 0 2px 2px rgb(187, 134, 20);
+    gap: 20px;
+    align-items: center;
+}
+
+.title9{
+    font-family: georgia;
+    font-size: 28px;
+    
+    align-items: center;
+}
+
+.list91{
+    margin-top: 10px;
+    margin-left: 8px;
+    font-size: 18px;
+   
+}
